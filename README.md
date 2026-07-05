@@ -65,15 +65,15 @@ http://127.0.0.1:8888/callback
 Create a `.env` file in the project folder:
 
 ```
-SPOTIPY\_CLIENT\_ID=your\_client\_id  
-SPOTIPY\_CLIENT\_SECRET=your\_client\_secret   
-SPOTIPY\_REDIRECT\_URI=http://127.0.0.1:8888/callback
+SPOTIPY_CLIENT_ID=your_client_id  
+SPOTIPY_CLIENT_SECRET=your_client_secret   
+SPOTIPY_REDIRECT_URI=http://127.0.0.1:8888/callback
 ```
 
 Run the script:
 
 ```
-python create\_playlist.py late\_night\_drive.txt
+python create_playlist.py late_night_drive.txt
 ```
 
 The first time the script runs, Spotipy opens a browser window where you log into Spotify and authorize the application. The access token is cached locally, so subsequent runs do not require logging in again unless the cache is deleted.
@@ -81,11 +81,11 @@ The first time the script runs, Spotipy opens a browser window where you log int
 ## Example output
 
 ```
-Logged in as: user\_id Display Name    
+Logged in as: user_id Display Name    
     
-Creating playlist: late\_night\_drive    
-Found: The National - Fake Empire -\> The National - Fake Empire    
-Found: Editors - Munich -\> Editors - Munich    
+Creating playlist: late_night_drive    
+Found: The National - Fake Empire -> The National - Fake Empire    
+Found: Editors - Munich -> Editors - Munich    
 Not found: Unknown Artist - Unknown Song    
     
 Done!    
