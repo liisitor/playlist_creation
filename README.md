@@ -42,7 +42,7 @@ Numbered lines are also cleaned automatically, so this is accepted too:
 3. White Lies - Death
 ```
 
-Lines starting with `\\\#` are ignored.
+Lines starting with `#` are ignored.
 
 ## How to run
 
